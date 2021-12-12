@@ -1,0 +1,63 @@
+#contact{
+    width: 70%;
+    float: right;
+    margin: 100px 0;
+}
+.forms{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}   
+.name{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#name{
+    width: 50%;
+}
+#email{
+    width: 50%;
+}
+input{
+    background-color: rgba(211, 211, 211, 0.164);
+    border: 1px solid white;
+    width: 80%;
+    height: 40px;
+    color: white;
+    padding-left: 10px;
+}
+textarea{
+    background-color: rgba(211, 211, 211, 0.164);
+    border: 1px solid white;
+    width: 90%;
+    min-height: 100px;
+    color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 998px) {
+    #contact{
+        width: 90%;
+    }
+    .name{
+        flex-direction: column;
+        width: 90%;
+        gap: 10px;
+    }
+    #name{
+        width: 100%;
+    }
+    #email{
+        width: 100%;
+    }
+    input{
+        width: 90%;
+    }
+}

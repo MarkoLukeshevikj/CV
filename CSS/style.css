@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    background-image: url(../assets/images/pozadina.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+nav{
+    width: 20%;
+    position: fixed;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.nav-container{
+    width: 100%;
+    background-color: rgba(211, 211, 211, 0.164);
+    padding: 10px 0px;
+}
+.hamburger{
+    font-size: 36px;
+    padding: 5px;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.637);
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 50px;
+}
+.div1:hover{
+    background-color: white;
+}
+.div1:hover a{
+    color: black;
+}
+
+.marko{
+    width: 150px;
+    border-radius: 50%;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons a{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+}
+
+#info{
+  margin-top: 40px;
+  width: 70%;
+  float: right;
+}
+.info{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.personal-info > p > i{
+    color: #CC5500;
+}
+
+@media screen and (max-width: 998px) {
+    section{
+        width: 90%;
+    }
+    .hamburger{
+        display: inline-block;
+        position: absolute;
+        left: -50px;
+        top: 10px;
+    }
+    .nav-container{
+        display: none;
+    }
+    #info{
+        width: 90%;
+        align-items: center;
+    }
+}
+
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0.89)
+}
+::-webkit-scrollbar-thumb{
+    background: #000000a8;
+    border-radius: 10px;
+}

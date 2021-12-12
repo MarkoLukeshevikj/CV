@@ -1,0 +1,43 @@
+#education{
+    width: 70%;
+    float: right;
+    margin-top: 100px;
+}
+.code{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.praven-slika{
+    width: 250px;
+}
+
+#courses{
+    width: 70%;
+    float: right;
+    margin-top: 100px;
+}
+
+.code-slika{
+    width: 250px;
+}
+.code-camp-slika{
+    width: 200px;
+}
+.mosh-slika{
+    width: 200px;
+}
+
+
+
+@media screen and (max-width: 998px) {
+    #education{
+        width: 90%;
+    }
+    #courses{
+        width: 90%;
+    }
+}

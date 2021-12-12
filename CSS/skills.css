@@ -1,0 +1,44 @@
+#skills{
+    width: 70%;
+    float: right;
+    margin-top: 100px;
+}
+.languages{
+    margin-top: 40px;
+    width: 95%;
+    background-color: rgba(211, 211, 211, 0.164);
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+.languages:hover{
+    background-color: white;
+    color: black;
+}
+.skills{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skill{
+    width: 45%;
+    height: 300px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 998px) {
+    #skills{
+        width: 90%;
+    }
+
+   .skills{
+       flex-direction: column;
+   }
+   .skill{
+       width: 80%;
+   }
+   .languages{
+       overflow: auto;
+   }
+}
